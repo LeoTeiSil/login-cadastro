@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="caixa-login">
+        <h2>Login</h2>
+        <form id="form-login">
+            <div class="caixa-texto">
+                <input type="email" id="email" placeholder="Seu e-mail">
+            </div>
+            <div class="caixa-texto">
+                <input type="password" id="senha" placeholder="Sua senha">
+            </div>
+            <div class="manter-logado">
+                <input type="checkbox" id="lembrar">
+                <label for="lembrar">Manter-me logado</label>
+            </div>
+            <button type="submit" class="botao">Logar</button>
+            <div class="registro">
+                <span>Ainda não tem conta?</span> <a href="cadastro.html">Cadastre-se</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

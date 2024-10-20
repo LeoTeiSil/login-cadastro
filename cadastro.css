@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.caixa-login, .caixa-cadastro {
+    background-color: white;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #006666;
+    font-size: 28px;
+}
+
+.caixa-texto {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.caixa-texto input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botao {
+    background-color: #009999;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.botao:hover {
+    background-color: #007777;
+}
+
+.registro, .login {
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.registro a, .login a {
+    color: #009999;
+    text-decoration: none;
+}
+
+.registro a:hover, .login a:hover {
+    text-decoration: underline;
+}
